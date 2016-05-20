@@ -1,59 +1,50 @@
 @import url(http://fonts.googleapis.com/css?family=Josefin+Slab:700);
-
 @import url(http://fonts.googleapis.com/css?family=Dosis:400,500);
-
-html, body{
+html, body {
     height: 100%;
-    margin:0px;
+    margin: 0px;
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-position: center;
 }
-
 div {
-  font-family: 'Josefin Slab', serif;
-  font-size:12.5em;
-  position:relative;
+    font-family: 'Josefin Slab', serif;
+    font-size: 12.5em;
+    position: relative;
 }
-
 span {
-  position:absolute;
+    position: absolute;
 }
-
 .top span {
-  bottom:-50px;
+    bottom: -50px;
 }
-
 .bottom span {
-  top:-10px;
+    top: -10px;
+    opacity: 1.0;
 }
-
 div.top {
-  color:#b1f6ee;
-  background-image: url(../img/bg.jpg);
-  background-size: cover;
-  background-position: center;
-  width:100%;
-  height:50%;
+    color: #5a5a5a;
+    width: 100%;
+    height: 50%;
 }
-
 div.bottom {
-  color:#b1f6ee;
-  background-color:#FFF;
-  width:100%;
-  height:50%;
+    color: #5a5a5a;
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 100%;
+    height: 50%;
 }
-
 footer {
-  width: 100%;
-  text-align: center;
-  font-family: Dosis, Sans-serif;
-  color: #FFF;
-  font-weight: 700;
-  font-size: 1.5em;
-  padding: 0;
-  background-color: #b1f6ee;
-  position: absolute;
-  bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-family: Dosis, Sans-serif;
+    color: #9f9f9b;
+    font-weight: 700;
+    font-size: 1.5em;
+    padding: 0;
+    background-color: #18211e;
+    position: absolute;
+    bottom: 0;
 }
-
 p {
-  margin: 0.3em;
+    margin: 0.3em;
 }
